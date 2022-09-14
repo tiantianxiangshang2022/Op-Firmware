@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/tiantianxiangshang2022/openwrt-20220722.git
+  REPO_URL: https://github.com/tiantianxiangshang2022/openwrt-20220722
   REPO_BRANCH: 19.07.3
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: r4a.config
