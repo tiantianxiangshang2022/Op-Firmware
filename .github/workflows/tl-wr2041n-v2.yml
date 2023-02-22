@@ -20,8 +20,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/tiantianxiangshang2022/openwrt-20220722/tree/master
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/tiantianxiangshang2022/openwrt-20220722/tree/19.07.8
+  REPO_BRANCH: 19.07.8
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/tl-wr2041n-v2.config
   DIY_P1_SH: diy-part1.sh
