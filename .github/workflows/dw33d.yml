@@ -23,7 +23,7 @@ on:
 
 env:
   REPO_URL: https://github.com/tiantianxiangshang2022/openwrt-20220722
-  REPO_BRANCH: 21.02.1-gw
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/dw33d.config
   DIY_P1_SH: diy-part1.sh
@@ -152,7 +152,7 @@ jobs:
     - name: Delete workflow runs
       uses: Mattraks/delete-workflow-runs@main
       with:
-        retain_days: 10
+        retain_days: 100
         keep_minimum_runs: 2000
 
     - name: Remove old Releases
